@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     color: #196b32
+
 }
 
 .page {
@@ -20,6 +21,7 @@ body {
     padding:0px;
     margin-top: 80px;
     margin-left: 300px;
+    text-align: center;
 }
 
 .areaLogin img {
@@ -30,7 +32,8 @@ body {
     padding: 0;
     margin: 0;
     font-weight: 500;
-    font-size: 50px;
+    font-size: 80px;
+    margin-bottom: 50px;
 }
 
 .formLogin p {
@@ -43,16 +46,15 @@ body {
 .formLogin input {
     padding: 15px;
     font-size: 14px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     margin-bottom: 20px;
     margin-top: 5px;
     border-radius: 4px;
- 
 }
 
 
 .formLogin input:focus {
-    border: 1px solid #f72585;
+    border: 1px solid #000000;
 }
 
 .formLogin label {
@@ -60,15 +62,13 @@ body {
     font-weight: 600;
 }
 
-
-
 .formLogin a:hover {
-    color: #ff0000;
+    color: #60ff7a8c;
 }
 
 .btn {
     background-color: #f72585;
-    color: #fff;
+    color: #000000;
     font-size: 20px;
     font-weight: 600;
     border: none ;
@@ -132,45 +132,68 @@ align-items: center;
    .btn_social ul li a:hover       { color:#000000; }
    .container ul li{
        font-size:x-small;
-       background-color:#fdfffe;
+       background-color:#000000;
 
    }
 .v3{
     display: flex;
 }
 .formLogin button{
-    background-color: #f72585;
+    background-color: #ccccccab;
     font-size: 30px;
-    box-shadow: grey;
+    box-shadow: rgb(0, 0, 0);
     border-radius: 50px;
+    
+    
     
     }
 .formLogin button a{
-    color: #d3cccc;
+    color:#000000;
+    font-size: 40px;
     
 }    
 .login button{
-    background-color: #e6e5e571;
+    background-color: #ffffff71;
     font-size: 30px;
     box-shadow: grey;
     border-radius: 200px;
     display: flex;
     margin-bottom: 50px;
-
+    
 }
 .login{
     font-size: 200px;
     margin: 50px;
     padding: 0%;
     margin-top: 200px;
-    margin-left: 200px;}
+    margin-left: 150px;
+    
+}
 .tudo{
     display: flex;
     background-color: #5e5e5e;
     border-radius: 50;
     background-image: url(mbappe\ 1.jpg);
     background-size:contain;
+    text-align: center;
+    margin-right: 50px;
 }
 .login img{
     margin-top: 100px
+}
+.but input{
+     font-size: 60px;
+     display: flex;
+     flex-direction: column;
+     border-radius: 50px;
+     color: #000000;
+     background-color: #d8d8d880;
+     text-align: center;
+}
+.Login a:hover {
+    color: #60ff7a8c;
+}
+.Login button a{
+    color:#000000;
+    font-size: 40px;
 }

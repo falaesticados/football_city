@@ -1,0 +1,176 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #196b32
+}
+
+.page {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #999999;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: #999999;
+    border-radius: 7px;
+    padding:0px;
+    margin-top: 80px;
+    margin-left: 300px;
+}
+
+.areaLogin img {
+    width: 420px;
+}
+
+.formLogin h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.formLogin p {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+ 
+}
+
+
+.formLogin input:focus {
+    border: 1px solid #f72585;
+}
+
+.formLogin label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+.formLogin a:hover {
+    color: #ff0000;
+}
+
+.btn {
+    background-color: #f72585;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: none ;
+
+    cursor: pointer;
+    margin: 0;
+
+}
+.container ul li{
+align-items: center;
+}
+.btn_social { 
+    width:100%; 
+    float:left; 
+    display:flex; 
+    margin:auto; 
+    margin-left: 150px;
+   }
+   .btn_social ul  { 
+    width:auto; 
+    margin:auto; 
+    float:left; 
+    display:block; 
+   }
+   .btn_social ul li  { 
+    position:relative; 
+    background:#555555; 
+    list-style:none; 
+    float:left; 
+    margin:5px; 
+    z-index:1; 
+    overflow:hidden; 
+    border-radius:3px; 
+    font-size:1.5em; 
+    text-align:center; 
+   }
+   .btn_social ul li a  { 
+    width:50px; 
+    height:50px; 
+    line-height:53px; 
+    display:block; 
+    text-decoration:none; 
+    color:#020202; 
+    transition:.4s;
+   }
+   .btn_social ul li::before { 
+    transition:0.4s; 
+    position:absolute; 
+    content:''; 
+    width:100%; 
+    height:100%; 
+    top:90%; 
+    left:0; 
+    background:#5b5b5b; 
+    z-index:-1; 
+    transform: scale(1); 
+    transition:.4s;
+   }
+   .btn_social ul li:hover::before { transition:0.4s; top:0%
+;}
+   .btn_social ul li a:hover       { color:#000000; }
+   .container ul li{
+       font-size:x-small;
+       background-color:#fdfffe;
+
+   }
+.v3{
+    display: flex;
+}
+.formLogin button{
+    background-color: #f72585;
+    font-size: 30px;
+    box-shadow: grey;
+    border-radius: 50px;
+    
+    }
+.formLogin button a{
+    color: #d3cccc;
+    
+}    
+.login button{
+    background-color: #e6e5e571;
+    font-size: 30px;
+    box-shadow: grey;
+    border-radius: 200px;
+    display: flex;
+    margin-bottom: 50px;
+
+}
+.login{
+    font-size: 200px;
+    margin: 50px;
+    padding: 0%;
+    margin-top: 200px;
+    margin-left: 200px;}
+.tudo{
+    display: flex;
+    background-color: #5e5e5e;
+    border-radius: 50;
+    background-image: url(mbappe\ 1.jpg);
+    background-size:contain;
+}
+.login img{
+    margin-top: 100px
+}

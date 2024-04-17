@@ -20,7 +20,7 @@ body {
     border-radius: 7px;
     padding:0px;
     margin-top: 80px;
-    margin-left: 150px;
+    margin-left: 300px;
     text-align: center;
 }
 
@@ -50,6 +50,7 @@ body {
     margin-bottom: 20px;
     margin-top: 5px;
     border-radius: 4px;
+    margin-bottom: 40px;
 }
 
 
@@ -66,93 +67,24 @@ body {
     color: #60ff7a8c;
 }
 
-.btn {
-    background-color: #f72585;
-    color: #000000;
-    font-size: 20px;
-    font-weight: 600;
-    border: none ;
-
-    cursor: pointer;
-    margin: 0;
-
-}
-.container ul li{
-align-items: center;
-}
-.btn_social { 
-    width:100%; 
-    float:left; 
-    display:flex; 
-    margin:auto; 
-    margin-left: 150px;
-   }
-   .btn_social ul  { 
-    width:auto; 
-    margin:auto; 
-    float:left; 
-    display:block; 
-   }
-   .btn_social ul li  { 
-    position:relative; 
-    background:#555555; 
-    list-style:none; 
-    float:left; 
-    margin:5px; 
-    z-index:1; 
-    overflow:hidden; 
-    border-radius:3px; 
-    font-size:1.5em; 
-    text-align:center; 
-   }
-   .btn_social ul li a  { 
-    width:50px; 
-    height:50px; 
-    line-height:53px; 
-    display:block; 
-    text-decoration:none; 
-    color:#020202; 
-    transition:.4s;
-   }
-   .btn_social ul li::before { 
-    transition:0.4s; 
-    position:absolute; 
-    content:''; 
-    width:100%; 
-    height:100%; 
-    top:90%; 
-    left:0; 
-    background:#5b5b5b; 
-    z-index:-1; 
-    transform: scale(1); 
-    transition:.4s;
-   }
-   .btn_social ul li:hover::before { transition:0.4s; top:0%
-;}
-   .btn_social ul li a:hover       { color:#000000; }
-   .container ul li{
-       font-size:x-small;
-       background-color:#000000;
-
-   }
-.v3{
-    display: flex;
-}
 .formLogin button{
     background-color: #ccccccab;
     font-size: 30px;
-    box-shadow: rgb(0, 0, 0);
+    box-shadow: #000000;
     border-radius: 50px;
-    
-    
+    margin-bottom: 20px;
     
     }
 .formLogin button a{
     color:#000000;
     font-size: 40px;
+    text-decoration: none;
     
 }    
-
+.formLogin a{
+   text-decoration: none;
+   color: black;
+}
 .login{
     font-size: 150px;
     margin: 50px;
@@ -177,7 +109,7 @@ align-items: center;
     
 }
 .but input{
-     font-size: 60px;
+     font-size: 40px;
      display: flex;
      flex-direction: column;
      border-radius: 50px;
@@ -198,6 +130,7 @@ align-items: center;
     }
 .res a:hover{
     color:#000000;
-    
-    
 }    
+.res a{
+    text-decoration: none;
+}

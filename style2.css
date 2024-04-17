@@ -1,0 +1,92 @@
+body{
+ background-color: rgb(0, 0, 0);
+ color: #fdfffe;
+}
+
+.formLogin{
+    
+        background-color: #747474;
+        font-size: 30px;
+        box-shadow: grey;
+        border-radius: 50px;
+        display: flex;
+        
+        }
+        .formLogin ul  { 
+            width:auto; 
+            margin:auto; 
+            float:left; 
+            display:block; 
+            text-align: center;
+           }
+           .formLogin ul li  { 
+            position:relative; 
+            background:#555555; 
+            list-style:none; 
+            float:left; 
+            margin:5px; 
+            z-index:1; 
+            overflow:hidden; 
+            border-radius:3px; 
+            font-size:1.5em; 
+            text-align:center;
+            margin-left: 120px; 
+            margin-right: 120px;
+           }
+           .formLogin ul li a  { 
+            width:50px; 
+            height:50px; 
+            line-height:53px; 
+            display:block; 
+            text-decoration:none; 
+            color:#020202; 
+            transition:.4s;
+           }
+           .formLogin ul li::before { 
+            transition:0.4s; 
+            position:absolute; 
+            content:''; 
+            width:100%; 
+            height:100%; 
+            top:90%; 
+            left:0; 
+            background:#5b5b5b; 
+            z-index:-1; 
+            transform: scale(1); 
+            transition:.4s;
+           }
+           .formLogin ul li:hover::before { transition:0.4s; top:0%
+        ;}
+           .formLogin ul li a:hover       { color:#000000; }
+           ul li{
+               font-size:x-small;
+               background-color:#fdfffe;
+        
+           }
+           .vo img{
+            max-height: 300px;
+            max-width: 400px;
+            margin-bottom: 20px;
+           }
+           .vo{
+            margin-left: 100px;
+            display: flex;
+            flex-direction: column;
+           }
+           .n1{
+            display: flex;
+           }
+           .bo{
+            display: flex;
+            flex-direction: column;
+            margin-left:100px ;
+           }
+           .n2{
+            display: flex;
+           }
+           .jo{
+            display: flex;
+            flex-direction: column;
+            margin-left:100px ;
+           }
+           

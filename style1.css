@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     color: #196b32
-
+   
 }
 
 .page {
@@ -20,7 +20,7 @@ body {
     border-radius: 7px;
     padding:0px;
     margin-top: 80px;
-    margin-left: 300px;
+    margin-left: 150px;
     text-align: center;
 }
 
@@ -152,22 +152,14 @@ align-items: center;
     font-size: 40px;
     
 }    
-.login button{
-    background-color: #ffffff71;
-    font-size: 30px;
-    box-shadow: grey;
-    border-radius: 200px;
-    display: flex;
-    margin-bottom: 50px;
-    
-}
+
 .login{
-    font-size: 200px;
+    font-size: 150px;
     margin: 50px;
     padding: 0%;
     margin-top: 200px;
-    margin-left: 150px;
-    
+    display: flex;
+    flex-direction: column;
 }
 .tudo{
     display: flex;
@@ -179,7 +171,10 @@ align-items: center;
     margin-right: 50px;
 }
 .login img{
-    margin-top: 100px
+    align-items: center;
+    margin-top: 200px
+
+    
 }
 .but input{
      font-size: 60px;
@@ -193,7 +188,16 @@ align-items: center;
 .Login a:hover {
     color: #60ff7a8c;
 }
-.Login button a{
+
+
+.res {
+    background-color: #6b6b6b6b;
+    font-size: 30px;
+    box-shadow: rgba(51, 155, 98, 0.322);
+    border-radius: 50px;
+    }
+.res a:hover{
     color:#000000;
-    font-size: 40px;
-}
+    
+    
+}    

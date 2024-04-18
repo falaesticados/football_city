@@ -1,0 +1,161 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: #fdfffe;
+   }
+   
+   .formLogin{
+       
+           background-color: #747474;
+           font-size: 30px;
+           box-shadow: grey;
+           border-radius: 50px;
+           display: flex;
+           
+           }
+           .formLogin ul  { 
+               width:auto; 
+               margin:auto; 
+               float:left; 
+               display:block; 
+               text-align: center;
+              }
+              .formLogin ul li  { 
+               position:relative; 
+               background:#555555; 
+               list-style:none; 
+               float:left; 
+               margin:5px; 
+               z-index:1; 
+               overflow:hidden; 
+               border-radius:3px; 
+               font-size:1.5em; 
+               text-align:center;
+               margin-left: 120px; 
+               margin-right: 120px;
+              }
+              .formLogin ul li a  { 
+               width:50px; 
+               height:50px; 
+               line-height:53px; 
+               display:block; 
+               text-decoration:none; 
+               color:#020202; 
+               transition:.4s;
+              }
+              .formLogin ul li::before { 
+               transition:0.4s; 
+               position:absolute; 
+               content:''; 
+               width:100%; 
+               height:100%; 
+               top:90%; 
+               left:0; 
+               background:#5b5b5b; 
+               z-index:-1; 
+               transform: scale(1); 
+               transition:.4s;
+              }
+              .formLogin ul li:hover::before { transition:0.4s; top:0%
+           ;}
+              .formLogin ul li a:hover       { color:#000000; }
+              ul li{
+                  font-size:x-small;
+                  background-color:#fdfffe;
+           
+              }
+              .j{
+                display: flex;
+                color: #000000;
+                max-height: 110px;
+              }
+              .j input {
+                padding: 15px;
+                font-size: 14px;
+                border: 1px solid #000000;
+                margin-bottom: 20px;
+                margin-top: 5px;
+                border-radius: 40px;
+                margin-bottom: 40px;
+                width: 600px;
+            }
+            
+            
+            .j input:focus {
+                border: 1px solid #000000;
+            }
+            
+            .j label {
+                font-size: 14px;
+                font-weight: 600;
+            }
+            
+            .j a:hover {
+                color: #60ff7a8c;
+            }
+            .jog{
+                background-color: #fdfffe;
+                width: 350px;
+                height: 400px;
+                border-radius: 40px;
+                margin-bottom: 30px;
+                margin-left: 100px;
+            }
+            .jog2{
+                background-color: #fdfffe;
+                width: 350px;
+                height: 400px;
+                border-radius: 40px;
+                margin-bottom: 30px;
+                margin-left: 120px;
+            }
+            .fr{
+                display:flex ;
+            }
+            .jog3{
+                background-color: #fdfffe;
+                width: 350px;
+                height: 400px;
+                border-radius: 40px;
+                margin-bottom: 30px;
+                margin-right: 10px;
+                margin-left: 120px;
+            }
+            .jog4{
+                background-color: #fdfffe;
+                width: 400px;
+                height: 200px;
+                border-radius: 40px;
+                margin-bottom: 30px;
+            }
+            .fr2{
+                display:flex ;
+            }
+            .apo{
+                background-color: #fdfffe;
+                height: 200px;
+                width: 200px;
+                border-radius: 40px;
+                margin-left: 60px;
+            }
+            .apo2{
+                background-color: #fdfffe;
+                height: 200px;
+                width: 200px;
+                border-radius: 40px;
+                margin-left: 60px;
+            }.apo3{
+                background-color: #fdfffe;
+                height: 200px;
+                width: 200px;
+                border-radius: 40px;
+                margin-left: 60px;
+            }.apo4{
+                background-color: #fdfffe;
+                height: 200px;
+                width: 200px;
+                border-radius: 40px;
+                margin-left: 60px;
+            }
+            .icon{
+                max-height: 30px;
+               }
